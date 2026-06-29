@@ -37,11 +37,11 @@ defmodule Liquex.MixProject do
     [
       {:nimble_parsec, "~> 1.4"},
       {:date_time_parser, "~> 1.2"},
-      {:decimal, "~> 2.0"},
+      {:decimal, "~> 3.0"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.31", only: :dev, runtime: false},
-      {:jason, "~> 1.4", only: [:dev, :test], runtime: false},
+      {:jason, "~> 1.4.5", only: [:dev, :test], runtime: false},
       {:hrx, "~> 0.2.0", only: [:test], runtime: false},
       {:tzdata, "~> 1.1", only: [:test]}
     ]
